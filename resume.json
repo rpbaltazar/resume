@@ -1,0 +1,178 @@
+{
+  "basics": {
+    "name": "Rui Baltazar",
+    "label": "Senior Software Engineer",
+    "picture": "",
+    "email": "rui.p.baltazar@gmail.com",
+    "phone": "+65 87173612",
+    "website": "http://balazar.net",
+    "summary": "I'm a life lover by nature, regular diver and traveller explorer. Amateur photographer with a passion for macro. I'm an enthusiastic developer, proficient in getting things done.",
+    "location": {
+      "city": "Singapore",
+      "countryCode": "SG"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "rpbaltazar",
+        "url": "twitter.com/rpbaltazar"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Rui Baltazar",
+        "url": "sg.linkedin.com/in/rpbaltazar"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "OpsManager",
+      "position": "Senior Software Engineer",
+      "website": "http://www.opsmanager.com/",
+      "startDate": "2014-04-08",
+      "summary": "Full stack developer, with special focus on frontend. Used frameworks such as Knockout and Backbone. A lot of interaction with indexedDb to support the offline capabilities of the web application",
+      "highlights": [
+        "Maintenance and development of the offline-capable web application",
+        "Development of the Android application for on-site data collection"
+      ]
+    },
+    {
+      "company": "SMART (MIT alliance)",
+      "position": "Senior Software Engineer",
+      "website": "http://smart.mit.edu/",
+      "startDate": "2011-11-22",
+      "endDate": "2014-04-07",
+      "summary": "Full stack developer, as well as technology advisor for research support.",
+      "highlights": [
+        "Developed fully working web platform for people's mobility data collection (FMSurvey) in a partnership with LTA (Land Transport Authority)",
+        "Management of the development of both iOS and Android mobile applications used for the data collection"
+      ]
+    },
+    {
+      "company": "Ubiwhere, Lda",
+      "position": "Software Engineer",
+      "website": "http://www.ubiwhere.com/",
+      "startDate": "2010-09-08",
+      "endDate": "2011-11-01",
+      "summary": "Software developer both for the main company and as outsourced resource.",
+      "highlights": [
+        "Development of Android mobile application in the context of Birdwatching",
+        "While outsurced working for PT Inovação, as Java developer: maintained and developed the SMS platform used by several network providers such as TMN, Meditel and CVMovel; Started developing automated tests on the platform using Ruby"
+      ]
+    },
+    {
+      "company": "Ubiwhere, Lda",
+      "position": "Trainee Software Engineer",
+      "website": "http://www.ubiwhere.com/",
+      "startDate": "2009-09-01",
+      "endDate": "2010-09-01",
+      "summary": "Master thesis in company environment",
+      "highlights": [
+        "Development of a mobile application for guiding blind people in cities, Blind City Guide, in the context of Master's thesis in AI for Ubiquitous Systems.",
+        "Development of a keyboard solution for touchscreens to be used by visually impaired, using QT",
+        "Development of a social application for SonyEricsson mobile contest using javaME",
+        "Beta-testing of on-going development applications"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Coimbra",
+      "area": "Computer Science",
+      "studyType": "Master",
+      "startDate": "2011-06-01",
+      "endDate": "2014-01-01",
+      "gpa": "16/20",
+      "courses": [
+        "Artificial Intelligence for Ubiquitous Computing"
+      ]
+    },
+    {
+      "institution": "Politechnika Bialostocka",
+      "area": "Computer Science",
+      "studyType": "Master's exchange program",
+      "startDate": "2008-09-22",
+      "endDate": "2009-06-01",
+      "courses": [
+        "Cryptography",
+        "Robotics",
+        "Methods of Modelling"
+      ]
+    },
+    {
+      "institution": "University of Coimbra",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2005-09-15",
+      "endDate": "2008-06-01",
+      "courses": [
+        "OOP",
+        "Network Systems",
+        "AI Introduction",
+        "Operating Systems",
+        "Distributed Systems"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "IDA's Best Government Data Mash-Up",
+      "date": "2013-09-29",
+      "awarder": "IDA Singapore",
+      "summary": "Best use of any government dataset from another agency in combination with EMA & SP's datasets"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Battery Patterns and Forecasting in a Large-scale Smartphone-based Travel Survey",
+      "publisher": "International Conference on Transport Survey Methods (ISTCST 2014)",
+      "releaseDate": "2014-09-21"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Portuguese",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Full professional"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Professional working"
+    },
+    {
+      "language": "Italian",
+      "fluency": "Elementary"
+    },
+    {
+      "language": "French",
+      "fluency": "Elementary"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Scuba Diving",
+      "keywords": [
+        "Divemaster"
+      ]
+    },
+    {
+      "name": "Photography",
+      "keywords": [
+        "Statues",
+        "Macro",
+        "Underwater"
+      ]
+    },
+    {
+      "name": "Sports",
+      "keywords": [
+        "Football",
+        "Handball",
+        "Tennis"
+      ]
+    }
+  ]
+}
