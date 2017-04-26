@@ -1,7 +1,7 @@
 {
   "basics": {
     "name": "Rui Baltazar",
-    "label": "Senior Software Engineer",
+    "label": "Lead Software Engineer / CTO",
     "picture": "",
     "email": "rui.p.baltazar@gmail.com",
     "phone": "+65 87173612",
@@ -13,18 +13,29 @@
     },
     "profiles": [
       {
-	"network": "Twitter",
-	"username": "rpbaltazar",
-	"url": "twitter.com/rpbaltazar"
+        "network": "Twitter",
+        "username": "rpbaltazar",
+        "url": "twitter.com/rpbaltazar"
       },
       {
-	"network": "LinkedIn",
-	"username": "Rui Baltazar",
-	"url": "sg.linkedin.com/in/rpbaltazar"
+        "network": "LinkedIn",
+        "username": "Rui Baltazar",
+        "url": "sg.linkedin.com/in/rpbaltazar"
       }
     ]
   },
   "work": [
+    {
+      "company": "FirstTouch",
+      "position": "CTO / Co-founder",
+      "website": "http://www.firsttouch.io/",
+      "startDate": "2016-10-01",
+      "summary": "FirstTouch is a Football network that brings together football professionals and clubs, easing the career managing and the interaction between teams and its resources.",
+      "highlights": [
+        "CTO / Co-founder",
+        "Full-stack developer with sysadmin responsabilities"
+      ]
+    },
     {
       "company": "OpsManager",
       "position": "Lead Software Engineer",
@@ -32,9 +43,9 @@
       "startDate": "2014-04-08",
       "summary": "Lead Software Engineer/Developer. Working as full stack developer, with special focus on frontend, as well as responsible for the whole software development cycles, upon agreement with the client. Currently using frameworks such as Knockout, and previously Backbone. OpsManager relies heavily in indexedDb to support the offline capabilities of the web application",
       "highlights": [
-	"Lead Engineer",
-	"Maintenance and development of the offline-capable web application",
-	"Development of the Android application for on-site data collection"
+        "Lead Engineer",
+        "Maintenance and development of the offline-capable web application",
+        "Development of the Android application for on-site data collection"
       ]
     },
     {
@@ -45,8 +56,8 @@
       "endDate": "2014-04-07",
       "summary": "Full stack developer, as well as technology advisor for research support.",
       "highlights": [
-	"Developed fully working web platform for people's mobility data collection (FMSurvey) in a partnership with LTA (Land Transport Authority)",
-	"Management of the development of both iOS and Android mobile applications used for the data collection"
+        "Developed fully working web platform for people's mobility data collection (FMSurvey) in a partnership with LTA (Land Transport Authority)",
+        "Management of the development of both iOS and Android mobile applications used for the data collection"
       ]
     },
     {
@@ -57,8 +68,8 @@
       "endDate": "2011-11-01",
       "summary": "Software developer both for the main company and as outsourced resource.",
       "highlights": [
-	"Development of Android mobile application in the context of Birdwatching",
-	"While outsurced working for PT Inovação, as Java developer: maintained and developed the SMS platform used by several network providers such as TMN, Meditel and CVMovel; Started developing automated tests on the platform using Ruby"
+        "Development of Android mobile application in the context of Birdwatching",
+        "While outsurced working for PT Inovação, as Java developer: maintained and developed the SMS platform used by several network providers such as TMN, Meditel and CVMovel; Started developing automated tests on the platform using Ruby"
       ]
     },
     {
@@ -69,10 +80,10 @@
       "endDate": "2010-09-01",
       "summary": "Master thesis in company environment",
       "highlights": [
-	"Development of a mobile application for guiding blind people in cities, Blind City Guide, in the context of Master's thesis in AI for Ubiquitous Systems.",
-	"Development of a keyboard solution for touchscreens to be used by visually impaired, using QT",
-	"Development of a social application for SonyEricsson mobile contest using javaME",
-	"Beta-testing of on-going development applications"
+        "Development of a mobile application for guiding blind people in cities, Blind City Guide, in the context of Master's thesis in AI for Ubiquitous Systems.",
+        "Development of a keyboard solution for touchscreens to be used by visually impaired, using QT",
+        "Development of a social application for SonyEricsson mobile contest using javaME",
+        "Beta-testing of on-going development applications"
       ]
     }
   ],
@@ -85,7 +96,7 @@
       "endDate": "2014-01-01",
       "gpa": "16/20",
       "courses": [
-	"Artificial Intelligence for Ubiquitous Computing"
+        "Artificial Intelligence for Ubiquitous Computing"
       ]
     },
     {
@@ -95,9 +106,9 @@
       "startDate": "2008-09-22",
       "endDate": "2009-06-01",
       "courses": [
-	"Cryptography",
-	"Robotics",
-	"Methods of Modelling"
+        "Cryptography",
+        "Robotics",
+        "Methods of Modelling"
       ]
     },
     {
@@ -107,11 +118,11 @@
       "startDate": "2005-09-15",
       "endDate": "2008-06-01",
       "courses": [
-	"OOP",
-	"Network Systems",
-	"AI Introduction",
-	"Operating Systems",
-	"Distributed Systems"
+        "OOP",
+        "Network Systems",
+        "AI Introduction",
+        "Operating Systems",
+        "Distributed Systems"
       ]
     }
   ],
@@ -156,23 +167,23 @@
     {
       "name": "Scuba Diving",
       "keywords": [
-	"Divemaster"
+        "Divemaster"
       ]
     },
     {
       "name": "Photography",
       "keywords": [
-	"Statues",
-	"Macro",
-	"Underwater"
+        "Statues",
+        "Macro",
+        "Underwater"
       ]
     },
     {
       "name": "Sports",
       "keywords": [
-	"Football",
-	"Handball",
-	"Tennis"
+        "Football",
+        "Handball",
+        "Tennis"
       ]
     }
   ]
