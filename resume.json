@@ -31,6 +31,7 @@
       "position": "CTO / Co-founder",
       "website": "http://www.firsttouch.io/",
       "startDate": "2016-10-01",
+      "endDate": "Today",
       "summary": "FirstTouch is a Football network that brings together football professionals and clubs, easing the career managing and the interaction between teams and its resources.",
       "highlights": [
         "CTO / Co-founder",
@@ -42,11 +43,25 @@
       "position": "Lead Software Engineer",
       "website": "http://www.opsmanager.com/",
       "startDate": "2014-04-08",
+      "endDate": "Today",
       "summary": "Lead Software Engineer/Developer. Working as full stack developer, with special focus on frontend, as well as responsible for the whole software development cycles, upon agreement with the client. Currently using frameworks such as Knockout, and previously Backbone. OpsManager relies heavily in indexedDb to support the offline capabilities of the web application",
       "highlights": [
         "Lead Engineer",
         "Maintenance and development of the offline-capable web application",
         "Development of the Android application for on-site data collection"
+      ]
+    },
+    {
+      "company": "Intelllex",
+      "position": "Freelance Full-Stack Developer",
+      "website": "https://www.intelllex.com/",
+      "startDate": "2015-09-10",
+      "endDate": "2016-02-01",
+      "summary": "Developed frontend and backend for case search module using Ruby on Rails (backend) and Knockout.js (frontend). Integrated the case search module with their other existing modules.",
+      "highlights": [
+        "Full-stack developer",
+        "Described and implemented development workflow for newcomers",
+        "Sysadmin work setting up and documenting the production environment deploy"
       ]
     },
     {
