@@ -44,7 +44,7 @@
       "website": "http://www.opsmanager.com/",
       "startDate": "2014-04-08",
       "endDate": "Today",
-      "summary": "Lead Software Engineer/Developer. Working as full stack developer, with special focus on frontend, as well as responsible for the whole software development cycles, upon agreement with the client. Currently using frameworks such as Knockout, and previously Backbone. OpsManager relies heavily in indexedDb to support the offline capabilities of the web application",
+      "summary": "Lead Software Engineer/Developer. Working as full stack developer, with special focus on frontend, as well as responsible for the whole software development cycles, upon agreement with the client. Currently using frameworks such as Knockout, and previously Backbone. OpsManager relies heavily in indexedDB to support the offline capabilities of the web application",
       "highlights": [
         "Lead Engineer",
         "Maintenance and development of the offline-capable web application",
