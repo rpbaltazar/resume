@@ -6,7 +6,7 @@
     "email": "rui.p.baltazar@gmail.com",
     "phone": "+65 87173612",
     "website": "http://balazar.net",
-    "summary": "I'm a life lover by nature, regular diver and traveller explorer. Amateur photographer with a passion for macro. I'm an enthusiastic developer, proficient in getting things done.",
+    "summary": "I'm a Software Developer with Computer Science background, working in the industry since 2009. Thrilled by the start-up world, I'm an enthusiastic developer, proficient in getting things done. I never turn down a good challenge and I'm always seeking to learn. On the free time, I'm a life lover by nature, regular diver and traveller explorer. Amateur photographer with a passion for macro and perspective.",
     "location": {
       "city": "Singapore",
       "postalCode": "267955",
@@ -35,7 +35,9 @@
       "summary": "FirstTouch is a Football network that brings together football professionals and clubs, easing the career managing and the interaction between teams and its resources.",
       "highlights": [
         "CTO / Co-founder",
-        "Full-stack developer with sysadmin responsabilities"
+        "Full-stack developer with sysadmin responsabilities",
+        "RoR for the backend",
+        "VUE.js for the frontend"
       ]
     },
     {
