@@ -164,24 +164,24 @@
   ],
   "languages": [
     {
-      "language": "Portuguese",
-      "fluency": "Native speaker"
+      "name": "Portuguese",
+      "level": "Native speaker"
     },
     {
-      "language": "English",
-      "fluency": "Full professional"
+      "name": "English",
+      "level": "Full professional"
     },
     {
-      "language": "Italian",
-      "fluency": "Professional working"
+      "name": "Italian",
+      "level": "Professional working"
     },
     {
-      "language": "Spanish",
-      "fluency": "Elementary"
+      "name": "Spanish",
+      "level": "Elementary"
     },
     {
-      "language": "French",
-      "fluency": "Elementary"
+      "name": "French",
+      "level": "Elementary"
     }
   ],
   "interests": [
