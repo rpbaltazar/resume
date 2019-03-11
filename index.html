@@ -1,0 +1,947 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>Rui Baltazar</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+
+  
+    <style type="text/css">@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	font-weight: 300;
+	color: #333;
+	margin: 0 0 80px;
+	font-size: 15px;
+}
+
+a {
+	color: #E32B46;
+}
+
+a:focus, a:hover {
+	color: #333;
+	text-decoration: none;
+}
+
+strong {
+	font-size: smaller;
+	font-weight: 400;
+	color: #333;
+}
+
+p {
+	line-height: 1.5;
+	margin: 0 0 .5em 0;
+}
+
+p + p {
+	margin-top: 10px;
+}
+
+h1, h2, h3, h4 {
+	margin-top: 0;
+	font-weight: 300;
+	color: #555;
+}
+
+section {
+	margin-top: 24px;
+}
+
+ul, ol {
+	padding-left: 21px;
+}
+
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+
+li:before {
+	content: "\f052";
+	float: left;
+	font: 16px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+
+blockquote {
+  border-left: 3px solid #e7e9ec;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+em {
+	color: #666;
+	font-weight: 300;
+	font-style: normal;
+}
+
+h4 span:first-child {
+	color: #333;
+	font-weight: 400;
+}
+
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+
+.col-sm-12 h4 {
+	margin-top: 12px;
+}
+
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+
+#header {
+	padding: 50px 0 25px;
+}
+
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+
+#content h3 {
+	color: #555;
+	font-size: 26px;
+	margin-top: -4px;
+}
+
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+
+#profiles .network {
+	text-transform: capitalize;
+}
+
+#work .position,
+#volunteer .position {
+	font-weight: 400;
+	margin-bottom: 8px;
+}
+
+#education .area {
+	font-weight: 400;
+}
+
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+
+#education .studyType {
+	margin-left: 25px;
+}
+
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+  }
+
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+  }
+
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+  }
+
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+  }
+
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+  }
+
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+
+@media (max-width: 480px) {
+	h1 {
+		font-size: 28px;
+  }
+
+	#header h2 {
+		font-size: 24px;
+  }
+
+	#content h3 {
+		font-size: 20px;
+  }
+
+	h4 {
+		font-size: 16px;
+  }
+
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+  }
+
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+  }
+
+	.strike-through span {
+		display: block;
+  }
+
+	#header {
+		padding: 30px 0 0;
+  }
+
+	#actions {
+		display: none;
+	}
+}
+
+@media print {
+	body {
+		font-size: 12px;
+  }
+
+	a[href]:after {
+		display: none;
+  }
+
+	h1 {
+		font-size: 24px;
+  }
+
+	#header h2 {
+		font-size: 18px;
+		margin-top: -8px;
+  }
+
+	h4 {
+		font-size: 13px;
+  }
+
+  #header {
+		padding: 0;
+	}
+
+	#content aside {
+		margin: 0 !important;
+	}
+
+	#content h3 {
+		font-size: 16px;
+		margin-top: 0;
+	}
+
+	blockquote {
+		border: 0;
+		border-left: 3px solid #e7e9ec;
+		font-size: 12px;
+	}
+
+	li:before {
+		font: 10px Octicons;
+	}
+
+	.strike-through {
+		border-top-color: transparent;
+  }
+
+	.strike-through span + span {
+		font-size: 12px;
+  }
+
+	.col-sm-push-3 {
+    left: 25%;
+  }
+
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+  }
+
+	.col-sm-12 {
+	  width: 100%;
+  }
+
+	.col-sm-11 {
+	  width: 91.66666666666666%;
+  }
+
+	.col-sm-10 {
+	  width: 83.33333333333334%;
+  }
+
+	.col-sm-9 {
+	  width: 75%;
+  }
+
+	.col-sm-8 {
+	  width: 66.66666666666666%;
+  }
+
+	.col-sm-7 {
+	  width: 58.333333333333336%;
+  }
+
+	.col-sm-6 {
+	  width: 50%;
+  }
+
+	.col-sm-5 {
+	  width: 41.66666666666667%;
+  }
+
+	.col-sm-4 {
+	  width: 33.33333333333333%;
+  }
+
+	.col-sm-3 {
+	  width: 25%;
+  }
+
+	.col-sm-2 {
+	  width: 16.666666666666664%;
+  }
+
+	.col-sm-1 {
+	  width: 8.333333333333332%;
+  }
+}
+</style>
+  
+</head>
+<body>
+  <!-- HEADER -->
+  <header id="header">
+		<div class="container">
+			<div class="row">
+        <div class="col-sm-3">
+          <img src="" class="img-responsive img-circle pull-right" style="max-height: 88px">
+        </div>
+				<div class="col-sm-9">
+          <h1>Rui Baltazar</h1>
+          <h2>Lead Software Engineer / CTO</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+
+  <!-- CONTENT: Re-arrange sections order if necessary -->
+  <div id="content" class="container">
+    <!-- Contact -->
+    
+
+
+  <section id="contact" class="row">
+    <aside class="col-sm-3"><h3>Contact</h3></aside>
+    <div class="col-sm-9">
+      <div class="row">
+        
+          <div class="col-sm-6">
+            <strong>Email</strong>
+            <div>
+              <a href="mailto:rui.p.baltazar@gmail.com">rui.p.baltazar@gmail.com</a>
+            </div>
+          </div>
+        
+        
+          <div class="col-sm-6">
+            <strong>Phone</strong>
+            <div class="phone">+65 87173612</div>
+          </div>
+        
+        
+          <div class="col-sm-6">
+            <strong>Website</strong>
+            <div>
+              <a target="_blank" href="http://balazar.net">http://balazar.net</a>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+    <!-- About -->
+    
+
+
+  <section id="about" class="row">
+    <aside class="col-sm-3">
+      <h3>About</h3>
+    </aside>
+    <div class="col-sm-9">
+      <p>I&#39;m a Software Engineer with a Computer Science background, working in the industry since 2009. Thrilled by the start-up world, I&#39;m an enthusiastic developer, proficient in getting things done. I never turn down a good challenge and I&#39;m always seeking to learn. On the free time, I&#39;m a life lover by nature, regular diver and traveller explorer.</p>
+    </div>
+  </section>
+
+
+    <!-- Profiles -->
+    
+
+
+  <section id="profiles" class="row">
+    <aside class="col-sm-3">
+      <h3>Profiles</h3>
+    </aside>
+    <div class="col-sm-9">
+      <div class="row">
+        
+          <div class="col-sm-6">
+            <strong class="network">Twitter</strong>
+            <div class="url">
+              <a target="_blank" href="https://twitter.com/rpbaltazar">rpbaltazar</a>
+            </div>
+          </div>
+        
+          <div class="col-sm-6">
+            <strong class="network">LinkedIn</strong>
+            <div class="url">
+              <a target="_blank" href="https://sg.linkedin.com/in/rpbaltazar">Rui Baltazar</a>
+            </div>
+          </div>
+        
+          <div class="col-sm-6">
+            <strong class="network">Github</strong>
+            <div class="url">
+              <a target="_blank" href="https://github.com/rpbaltazar">Rui Baltazar</a>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+    <!-- Work -->
+    
+
+
+  <section id="work" class="row">
+    <aside class="col-sm-3">
+      <h3>Work</h3>
+    </aside>
+    <div class="col-sm-9">
+      <div class="row">
+        
+          <div class="col-sm-12">
+            <h4 class="strike-through">
+              <span>FirstTouch</span>
+              <span class="date">
+                October 2016 — Now
+              </span>
+            </h4>
+            <div class="website pull-right">
+              <a target="_blank" href="http://www.firsttouch.io/">http://www.firsttouch.io/</a>
+            </div>
+            <div class="position">
+              CTO / Co-founder
+            </div>
+            <div class="summary">
+              <p>FirstTouch is a Football network that brings together football professionals and clubs, easing the career managing and the interaction between teams and its resources.</p>
+            </div>
+            
+              <p><strong>Highlights</strong></p>
+              <ul class="highlights">
+                
+                  <li class="bullet">CTO / Co-founder</li>
+                
+                  <li class="bullet">Full-stack developer with sysadmin responsabilities</li>
+                
+                  <li class="bullet">RoR for the backend</li>
+                
+                  <li class="bullet">VUE.js for the frontend</li>
+                
+              </ul>
+            
+          </div>
+        
+          <div class="col-sm-12">
+            <h4 class="strike-through">
+              <span>OpsManager</span>
+              <span class="date">
+                April 2014 — Now
+              </span>
+            </h4>
+            <div class="website pull-right">
+              <a target="_blank" href="http://www.opsmanager.com/">http://www.opsmanager.com/</a>
+            </div>
+            <div class="position">
+              Lead Software Engineer
+            </div>
+            <div class="summary">
+              <p>Lead Software Engineer/Developer. Working as full stack developer, with special focus on frontend, as well as responsible for the whole software development cycles, upon agreement with the client. Currently using frameworks such as Knockout, and previously Backbone. OpsManager relies heavily in indexedDB to support the offline capabilities of the web application</p>
+            </div>
+            
+              <p><strong>Highlights</strong></p>
+              <ul class="highlights">
+                
+                  <li class="bullet">Lead Engineer</li>
+                
+                  <li class="bullet">Maintenance and development of the offline-capable web application</li>
+                
+                  <li class="bullet">Development of the Android application for on-site data collection</li>
+                
+              </ul>
+            
+          </div>
+        
+          <div class="col-sm-12">
+            <h4 class="strike-through">
+              <span>Intelllex</span>
+              <span class="date">
+                September 2015 — February 2016
+              </span>
+            </h4>
+            <div class="website pull-right">
+              <a target="_blank" href="https://www.intelllex.com/">https://www.intelllex.com/</a>
+            </div>
+            <div class="position">
+              Freelance Full-Stack Developer
+            </div>
+            <div class="summary">
+              <p>Developed frontend and backend for case search module using Ruby on Rails (backend) and Knockout.js (frontend). Integrated the case search module with their other existing modules.</p>
+            </div>
+            
+              <p><strong>Highlights</strong></p>
+              <ul class="highlights">
+                
+                  <li class="bullet">Full-stack developer</li>
+                
+                  <li class="bullet">Described and implemented development workflow for newcomers</li>
+                
+                  <li class="bullet">Sysadmin work setting up and documenting the production environment deploy</li>
+                
+              </ul>
+            
+          </div>
+        
+          <div class="col-sm-12">
+            <h4 class="strike-through">
+              <span>SMART (MIT alliance)</span>
+              <span class="date">
+                November 2011 — April 2014
+              </span>
+            </h4>
+            <div class="website pull-right">
+              <a target="_blank" href="http://smart.mit.edu/">http://smart.mit.edu/</a>
+            </div>
+            <div class="position">
+              Senior Software Engineer
+            </div>
+            <div class="summary">
+              <p>Full stack developer, as well as technology advisor for research support.</p>
+            </div>
+            
+              <p><strong>Highlights</strong></p>
+              <ul class="highlights">
+                
+                  <li class="bullet">Developed fully working web platform for people&#39;s mobility data collection (FMSurvey) in a partnership with LTA (Land Transport Authority)</li>
+                
+                  <li class="bullet">Management of the development of both iOS and Android mobile applications used for the data collection</li>
+                
+              </ul>
+            
+          </div>
+        
+          <div class="col-sm-12">
+            <h4 class="strike-through">
+              <span>Ubiwhere, Lda</span>
+              <span class="date">
+                September 2010 — November 2011
+              </span>
+            </h4>
+            <div class="website pull-right">
+              <a target="_blank" href="http://www.ubiwhere.com/">http://www.ubiwhere.com/</a>
+            </div>
+            <div class="position">
+              Software Engineer
+            </div>
+            <div class="summary">
+              <p>Software developer both for the main company and as outsourced resource.</p>
+            </div>
+            
+              <p><strong>Highlights</strong></p>
+              <ul class="highlights">
+                
+                  <li class="bullet">Development of Android mobile application in the context of Birdwatching</li>
+                
+                  <li class="bullet">While outsurced working for PT Inovação, as Java developer: maintained and developed the SMS platform used by several network providers such as TMN, Meditel and CVMovel; Started developing automated tests on the platform using Ruby</li>
+                
+              </ul>
+            
+          </div>
+        
+          <div class="col-sm-12">
+            <h4 class="strike-through">
+              <span>Ubiwhere, Lda</span>
+              <span class="date">
+                September 2009 — September 2010
+              </span>
+            </h4>
+            <div class="website pull-right">
+              <a target="_blank" href="http://www.ubiwhere.com/">http://www.ubiwhere.com/</a>
+            </div>
+            <div class="position">
+              Trainee Software Engineer
+            </div>
+            <div class="summary">
+              <p>Master thesis in company environment</p>
+            </div>
+            
+              <p><strong>Highlights</strong></p>
+              <ul class="highlights">
+                
+                  <li class="bullet">Development of a mobile application for guiding blind people in cities, Blind City Guide, in the context of Master&#39;s thesis in AI for Ubiquitous Systems.</li>
+                
+                  <li class="bullet">Development of a keyboard solution for touchscreens to be used by visually impaired, using QT</li>
+                
+                  <li class="bullet">Development of a social application for SonyEricsson mobile contest using javaME</li>
+                
+                  <li class="bullet">Beta-testing of on-going development applications</li>
+                
+              </ul>
+            
+          </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+    <!-- Skills -->
+    
+
+
+
+    <!-- Education -->
+    
+
+
+  <section id="education" class="row">
+    <aside class="col-sm-3">
+      <h3>Education</h3>
+    </aside>
+    <div class="col-sm-9">
+      <div class="row">
+        
+          <div class="col-sm-12">
+            <h4 class="strike-through">
+              <span>University of Coimbra</span>
+              <span class="date">
+                June 2011 — January 2014
+              </span>
+            </h4>
+            <div class="area">Computer Science</div>
+            <div class="studyType">
+              Master
+              
+                (16/20)
+              
+            </div>
+            
+              <h4>Courses</h4>
+              
+                <ul class="courses">
+                  <li>Artificial Intelligence for Ubiquitous Computing</li>
+                </ul>
+              
+            
+          </div>
+        
+          <div class="col-sm-12">
+            <h4 class="strike-through">
+              <span>Politechnika Bialostocka</span>
+              <span class="date">
+                September 2008 — June 2009
+              </span>
+            </h4>
+            <div class="area">Computer Science</div>
+            <div class="studyType">
+              Master&#39;s exchange program
+              
+            </div>
+            
+              <h4>Courses</h4>
+              
+                <ul class="courses">
+                  <li>Cryptography</li>
+                </ul>
+              
+                <ul class="courses">
+                  <li>Robotics</li>
+                </ul>
+              
+                <ul class="courses">
+                  <li>Methods of Modelling</li>
+                </ul>
+              
+            
+          </div>
+        
+          <div class="col-sm-12">
+            <h4 class="strike-through">
+              <span>University of Coimbra</span>
+              <span class="date">
+                September 2005 — June 2008
+              </span>
+            </h4>
+            <div class="area">Computer Science</div>
+            <div class="studyType">
+              Bachelor
+              
+            </div>
+            
+              <h4>Courses</h4>
+              
+                <ul class="courses">
+                  <li>OOP</li>
+                </ul>
+              
+                <ul class="courses">
+                  <li>Network Systems</li>
+                </ul>
+              
+                <ul class="courses">
+                  <li>AI Introduction</li>
+                </ul>
+              
+                <ul class="courses">
+                  <li>Operating Systems</li>
+                </ul>
+              
+                <ul class="courses">
+                  <li>Distributed Systems</li>
+                </ul>
+              
+            
+          </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+    <!-- Awards -->
+    
+
+
+  <section id="awards" class="row">
+    <aside class="col-sm-3">
+      <h3>Awards</h3>
+    </aside>
+    <div class="col-sm-9">
+      <div class="row">
+        
+          <div class="col-sm-12">
+            <h4 class="strike-through">
+              <span>IDA&#39;s Best Government Data Mash-Up</span>
+            </h4>
+            <div class="date pull-right">
+              <em>Awarded</em>
+              September 2013
+            </div>
+            <div>
+              <em>by</em>
+              <strong>IDA Singapore</strong>
+            </div>
+            <div class="summary">
+              Best use of any government dataset from another agency in combination with EMA &amp; SP&#39;s datasets
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+
+    <!-- Volunteer -->
+    
+
+
+
+    <!-- Publications -->
+    
+
+
+  <section id="publications" class="row">
+    <aside class="col-sm-3">
+      <h3>Publications</h3>
+    </aside>
+    <div class="col-sm-9">
+      <div class="row">
+        
+          <div class="col-sm-12">
+            <h4 class="strike-through">
+              <span>Battery Patterns and Forecasting in a Large-scale Smartphone-based Travel Survey</span>
+              <span class="date">September 2014</span>
+            </h4>
+            <div class="website pull-right">
+              <a target="_blank" href=""></a>
+            </div>
+            <div class="publisher">
+              <em>Published by</em>
+              <strong>International Conference on Transport Survey Methods (ISTCST 2014)</strong>
+            </div>
+            <div class="summary">
+              <p></p>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+    <!-- Languages -->
+    
+
+
+  <section id="languages" class="row">
+    <aside class="col-sm-3">
+      <h3>Languages</h3>
+    </aside>
+    <div class="col-sm-9">
+      <div class="row">
+        
+          <div class="col-sm-6">
+            <div class="language"><strong></strong></div>
+            <div class="fluency"></div>
+          </div>
+        
+          <div class="col-sm-6">
+            <div class="language"><strong></strong></div>
+            <div class="fluency"></div>
+          </div>
+        
+          <div class="col-sm-6">
+            <div class="language"><strong></strong></div>
+            <div class="fluency"></div>
+          </div>
+        
+          <div class="col-sm-6">
+            <div class="language"><strong></strong></div>
+            <div class="fluency"></div>
+          </div>
+        
+          <div class="col-sm-6">
+            <div class="language"><strong></strong></div>
+            <div class="fluency"></div>
+          </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+    <!-- Interests -->
+    
+
+
+  <section id="interests" class="row">
+    <aside class="col-sm-3">
+      <h3>Interests</h3>
+    </aside>
+    <div class="col-sm-9">
+      <div class="row">
+        
+          <div class="col-sm-6">
+            <div class="name">
+              <h4>Scuba Diving</h4>
+            </div>
+            <ul class="keywords">
+              
+                <li>Divemaster</li>
+              
+            </ul>
+          </div>
+        
+          <div class="col-sm-6">
+            <div class="name">
+              <h4>OSS</h4>
+            </div>
+            <ul class="keywords">
+              
+                <li>story_branch gem owner/maintainer</li>
+              
+            </ul>
+          </div>
+        
+          <div class="col-sm-6">
+            <div class="name">
+              <h4>Sports</h4>
+            </div>
+            <ul class="keywords">
+              
+                <li>Football</li>
+              
+                <li>Handball</li>
+              
+                <li>Tennis</li>
+              
+            </ul>
+          </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+    <!-- References -->
+    
+
+
+
+  </div>
+</body>
+</html>
