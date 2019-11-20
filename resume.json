@@ -32,10 +32,23 @@
   },
   "work": [
     {
+      "company": "Perx",
+      "position": "Senior Software Engineer",
+      "website": "https://perxtech.com/",
+      "startDate": "2016-10-01",
+      "endDate": "2019-11-20",
+      "summary": "PerxTech is a customer engagement and loyalty platform that powers big brands",
+      "highlights": [
+        "Backend lead for the new generation of the platform"
+      ]
+    },
+
+    {
       "company": "FirstTouch",
       "position": "CTO / Co-founder",
       "website": "http://www.firsttouch.io/",
       "startDate": "2016-10-01",
+      "endDate": "2019-11-20",
       "summary": "FirstTouch is a Football network that brings together football professionals and clubs, easing the career managing and the interaction between teams and its resources.",
       "highlights": [
         "CTO / Co-founder",
@@ -49,6 +62,7 @@
       "position": "Lead Software Engineer",
       "website": "http://www.opsmanager.com/",
       "startDate": "2014-04-08",
+      "endDate": "2019-07-31",
       "summary": "Lead Software Engineer/Developer. Working as full stack developer, with special focus on frontend, as well as responsible for the whole software development cycles, upon agreement with the client. Currently using frameworks such as Knockout, and previously Backbone. OpsManager relies heavily in indexedDB to support the offline capabilities of the web application",
       "highlights": [
         "Lead Engineer",
